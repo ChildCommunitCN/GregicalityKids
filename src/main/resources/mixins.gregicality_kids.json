@@ -1,0 +1,20 @@
+{
+  "package": "cn.childcommunity.gregicality_kids.mixin",
+  "required": true,
+  "refmap": "mixins.gregicality_kids.refmap.json",
+  "target": "@env(DEFAULT)",
+  "minVersion": "0.8.5",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinRecipeBuilder",
+    "MixinTileEntityExplosion",
+    "MixinToolProperty",
+    "MixinWireProperties",
+    "accessor.AccessorFluidDrillLogic",
+    "accessor.AccessorGTUtility",
+    "accessor.AccessorMultiblockMinerLogic",
+    "accessor.AccessorRecipeBuilder"
+  ],
+  "server": [],
+  "client": []
+}
