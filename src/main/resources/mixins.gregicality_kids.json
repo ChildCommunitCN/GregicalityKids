@@ -7,13 +7,13 @@
   "compatibilityLevel": "JAVA_8",
   "mixins": [
     "MixinRecipeBuilder",
+    "MixinRecipeLogic",
     "MixinTileEntityExplosion",
     "MixinToolProperty",
     "MixinWireProperties",
     "accessor.AccessorFluidDrillLogic",
     "accessor.AccessorGTUtility",
-    "accessor.AccessorMultiblockMinerLogic",
-    "accessor.AccessorRecipeBuilder"
+    "accessor.AccessorMultiblockMinerLogic"
   ],
   "server": [],
   "client": []

@@ -6,11 +6,9 @@ import cn.childcommunity.gregicality_kids.common.metatileentities.MetaTileEntiti
 import cn.childcommunity.gregicality_kids.mixin.accessor.AccessorFluidDrillLogic;
 import cn.childcommunity.gregicality_kids.mixin.accessor.AccessorGTUtility;
 import cn.childcommunity.gregicality_kids.mixin.accessor.AccessorMultiblockMinerLogic;
-import gregtech.GTInternalTags;
 import gregtech.api.GTValues;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.common.event.FMLConstructionEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -19,7 +17,7 @@ import org.apache.logging.log4j.Logger;
         modid = Tags.MOD_ID,
         name = Tags.MOD_NAME,
         version = Tags.VERSION,
-        dependencies = "required-after:gregtech;"
+        dependencies = "required-after:gregtech;required-after:gcym;after:gtlitecore;"
 )
 public class GregicalityKids {
     public static final Logger logger = LogManager.getLogger(Tags.MOD_ID);

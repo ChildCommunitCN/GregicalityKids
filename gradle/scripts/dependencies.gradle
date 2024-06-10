@@ -50,7 +50,7 @@ dependencies {
     implementation 'com.cleanroommc:configanytime:3.0'
     implementation rfg.deobf("curse.maven:ae2-extended-life-570458:4402048") // AE2UEL 0.55.6
 
-    implementation rfg.deobf("gregtech:gregtech:2.8.7-beta")
+    implementation rfg.deobf("gregtech:gregtech:2.8.8-beta")
     implementation rfg.deobf("gregicality:GregicalityMultiblocks:1.2.8")
 
     implementation "mezz.jei:jei_1.12.2:4.16.1.302"

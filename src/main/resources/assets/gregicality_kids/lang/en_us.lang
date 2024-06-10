@@ -1,0 +1,37 @@
+itemGroup.gregicality_kids=格雷科技儿童快乐版
+
+message.gcyk.brainchildren=儿童节快乐！
+
+metaitem.mold.general.name=通用模具
+
+metaitem.nan.certificate.name=仍旧是菜鸟的证明
+metaitem.nan.certificate.tooltip=你做的还不够多！
+
+metaitem.upgrade.kit.ulv.name=ULV 升级套件
+metaitem.upgrade.kit.lv.name=LV 升级套件
+metaitem.upgrade.kit.mv.name=MV 升级套件
+metaitem.upgrade.kit.hv.name=HV 升级套件
+metaitem.upgrade.kit.ev.name=EV 升级套件
+metaitem.upgrade.kit.iv.name=IV 升级套件
+metaitem.upgrade.kit.luv.name=LuV 升级套件
+metaitem.upgrade.kit.zpm.name=ZPM 升级套件
+metaitem.upgrade.kit.uv.name=UV 升级套件
+metaitem.upgrade.kit.uhv.name=UHV 升级套件
+metaitem.upgrade.kit.uev.name=UEV 升级套件
+metaitem.upgrade.kit.uiv.name=UIV 升级套件
+metaitem.upgrade.kit.uxv.name=UXV 升级套件
+
+gregicality_kids.machine.rainbow_miner.name=彩虹矿工
+gregicality_kids.machine.inf_water.name=下水道
+gregicality_kids.machine.rainbow_tank.name=彩虹浴缸
+gregicality_kids.machine.nate_miner.name=尼哥矿工
+gregicality_kids.machine.qqcy.name=青青草原
+gregicality_kids.machine.op.name=原神启动，我爱玩原神
+
+gregicality_kids.info.single_factories=此机器的RecipeMap为：%s
+
+gregicality_kids.tooltips.upgrade_kit=右键为机器升级到目标电压等级\n请注意不会保留机器原本的任何数据！\n请先将物品等取出！
+
+recipemap.qqcy.name=青青草原
+recipemap.op.name=原神启动！
+recipemap.nate_miner.name=非洲进口大黑哥矿工

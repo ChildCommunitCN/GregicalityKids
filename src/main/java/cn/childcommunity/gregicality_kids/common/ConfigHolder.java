@@ -23,7 +23,7 @@ public class ConfigHolder {
         public boolean enableDurationChange = true;
 
         @Config.Comment("Recipe duration")
-        public int duration = 1;
+        public int duration = 2;
 
         @Config.Comment("Enable tool changes")
         public boolean enableToolChanges = true;
@@ -33,6 +33,15 @@ public class ConfigHolder {
 
         @Config.Comment("Enable tank changes")
         public boolean enableTankChanges = true;
+
+        @Config.Comment("Parallel")
+        public int parallel = 10;
+
+        public String[] recipeModifier = new String[]{
+                "forge_hammer;1;1;10*",
+                "macerator;1;1;10+",
+                "alloy_smelter;1;1;10-",
+        };
     }
 
     public static class ExplosionSettings {
